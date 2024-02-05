@@ -1,0 +1,224 @@
+body {
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f7f7; /* Light pink background */
+}
+
+ 
+        header {
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(45deg, #3498db, #e74c3c, #2980b9); /* Complex gradient background */
+            color: #ecf0f1; /* Light Grayish Silver */
+            animation: fadeIn 2s ease-in-out; /* Animation on page load */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+            border-radius: 10px; /* Rounded corners for a softer look */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            cursor: pointer;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adding a subtle text shadow for depth */
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+          header h3, h4 {cursor: pointer;}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+img { width: 100%;
+    max-width: 70%;
+
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+     transition: transform 0.3s ease;
+border-radius: 20px;
+}
+    
+    img:hover {
+    transform: scale(1.1); 
+}
+
+.profile-image {
+    width: 12%;
+    max-width: 50%;
+    border-radius: 20%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.intro {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+.courseinfo {
+
+    background-color:#337def; /* Coral header background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px;
+}
+
+.extra-container {
+    text-align: center;
+}
+
+.extra a {
+    text-decoration: none!important;
+    color: #e74c3c!important; /* Red color */
+    font-weight: bold;
+    transition: color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.extra a:hover {
+    color: #c0392b; /* Darker red color on hover */
+    box-shadow: 0 0 10px rgba(231, 76, 60, 0.5); /* Subtle box shadow on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+cursor: grab;
+}
+
+.extra {
+    font-size: 18px;
+    text-align: center;
+    background-color: #f9f7f7; /* Light background color */
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.extra:hover {
+    background-color: #f1ece9; /* Lighter background color on hover */
+}
+
+
+
+.projector {width: 60%; 
+    display: block;
+    margin: auto;
+    padding: 30px;
+
+}
+      #course-info1{
+  		background-color: #edf7f6;
+		padding: 40px;
+border-radius: 40px;
+		}
+
+ #course-info{
+  
+     text-align: left;
+            display: none;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            font-family: 'Roboto', sans-serif; /* Change this to your preferred serious font */
+            font-size: 14px;
+        }
+        
+        .purchase-button-container {
+    text-align: center;
+}
+
+        
+        
+      .purchase-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #3498db; /* Blue border color */
+    color: #3498db; /* Blue text color */
+    background-color: #fff; /* White background color */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ .btn { 
+    
+    border: 2px solid #e74c3c;
+    color: #e74c3c;
+    background-color:#fff;}
+
+.purchase-button:hover {
+    background-color: #3498db; /* Blue background color on hover */
+    color: #fff; /* White text color on hover */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .purchase-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+
+    .intro {
+        font-size: 1em;
+    }
+}
+
+
+footer {
+   
+
+
+            text-align: center;
+
+            padding: 20px;
+
+            background: linear-gradient(45deg, #3498db, #e74c3c, #2980b9); /* Complex gradient background */
+
+            color: #ecf0f1; /* Light Grayish Silver */
+
+            animation: fadeIn 2s ease-in-out; /* Animation on page load */
+
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+
+            border-radius: 10px; /* Rounded corners for a softer look */
+}
+
+
+.expert img 
+{width: 170px;
+background-color: transparent;
+}
+  
